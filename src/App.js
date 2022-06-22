@@ -1,15 +1,17 @@
 // import { BrowserRouter,Routes,Route }  from "react-router-dom";
-import React from 'react'
+import React,  { useState } from 'react'
 import Home from "./pages/home/Home";
-import Portfolio from "./pages/portfolio/Portfolio";
+import Portfolio from "./pages/portfolio/portfolio";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact"
 import Resume from "./pages/resume/Resume"
 import"bootstrap/dist/css/bootstrap.min.css"
 
-const [contactSelected, setContactSelected] = useState(false);
+
+
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   const [currentTab, setCurrentTab] = useState("about");
 
 	// This function checks to see which tab is selected and then generates the appropriate tab.
@@ -35,13 +37,13 @@ function App() {
 
     <div>
 			<div className="header">
-				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+				{/* <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header> */}
 			</div>
 			<div>
 				<main>{renderTab()}</main>
 			</div>
 			<div>
-				<Footer></Footer>
+				{/* <Footer></Footer> */}
 			</div>
 		</div>
 	
