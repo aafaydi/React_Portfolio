@@ -1,6 +1,11 @@
 import React from 'react'
 
 function Navbar() {
+  const {
+    contactSelected,
+    setContactSelected
+  } = props;
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
