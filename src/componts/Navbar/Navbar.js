@@ -1,31 +1,25 @@
 import React from 'react'
 
-function Navbar() {
-  const {
-    contactSelected,
-    setContactSelected
-  } = props;
+function Navbar(props) {
+  const { currentOption, setCurrentOption } = props;
 
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon" />
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
-        <a className="nav-link" href="#">Features</a>
-        <a className="nav-link" href="#">Pricing</a>
-        <a className="nav-link disabled">Disabled</a>
-      </div>
-    </div>
-  </div>
-</nav>
-
-    </div>
+    <nav>
+    <ul className="flex-row mobile-view">
+				<li className={currentOption === "about" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentOption("about")}>About Me</span>
+				</li>
+				<li className={currentOption === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentOption("portfolio")}>Portfolio</span>
+				</li>
+				<li className={currentOption === "contact" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentOption("contact")}>Contact</span>
+				</li>
+				<li className={currentOption === "resume" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentOption("resume")}>Resume</span>
+				</li>
+			</ul>
+  </nav>
   )
 }
 

@@ -5,6 +5,7 @@ import Portfolio from "./pages/portfolio/portfolio";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Resume from "./pages/resume/Resume";
+// import Nav from "./componts/Navbar.Navbar";
 import"bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -27,7 +28,7 @@ function App() {
 			case "resume":
 				return <Resume />;
 			default:
-				return null;
+				return <Home/>;
 		}
 	};
 
