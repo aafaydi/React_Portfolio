@@ -1,67 +1,73 @@
-// import { BrowserRouter,Routes,Route }  from "react-router-dom";
-import React,  { useState } from 'react';
+import React, {useState} from 'react';
 import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/portfolio";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Resume from "./pages/resume/Resume";
-// import Nav from "../../componts/Navbar/Navbar";
-import"bootstrap/dist/css/bootstrap.min.css"
-
-
-
+import Navbar from './componts/Navbar/Navbar';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./App.css"
 
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [currentTab, setCurrentTab] = useState("home");
+    const [contactSelected, setContactSelected] = useState(false);
+    const [currentTab, setCurrentTab] = useState("home");
 
-	// This function checks to see which tab is selected and then generates the appropriate tab.
-	const renderTab = () => {
-		switch (currentTab) {
-			case "about":
-				return <About />;
-			case "portfolio":
-				return <Portfolio />;
-			case "contact":
-				return <Contact />;
-			case "resume":
-				return <Resume />;
-			default:
-				return <Home/>;
-		}
-	};
-
-
+    // This function checks to see which tab is selected and then generates the appropriate tab.
+    const renderTab = () => {
+        switch (currentTab) {
+            case "about":
+                return <About/>;
+            case "portfolio":
+                return <Portfolio/>;
+            case "contact":
+                return <Contact/>;
+            case "resume":
+                return <Resume/>;
+            default:
+                return <Home/>;
+        }
+    };
 
 
-  return (
+    return (
 
-    <div>
-			<div className="header">
-				{/* <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header> */}
-			</div>
-			<div>
-				<main>{renderTab()}</main>
-			</div>
-			<div>
-				{/* <Footer></Footer> */}
-			</div>
-		</div>
-	
-    
-    // <BrowserRouter>
-    //     <Routes>
-    //     <Route path = "/"element = {<Home/>}/>
-    //     <Route path = "/about"element = {<About/>}/>
-    //     <Route path = "/projects"element = {<Project/>}/>
-    //     <Route path = "/contact"element = {<Contact/>}/>
-
-    //     </Routes>
-    // </BrowserRouter>
+        <div>
+            
+                <nav className='header'>
+                    <h1 id="about">Ahmad Faydi</h1>
+                    <Navbar setCurrentOption={setCurrentTab} currentOption={currentTab}/>
+                </nav>
+            
+            <div>
+                <main>
+                    {renderTab()}
+                </main>
+            </div>
+            <div> {/* <Footer></Footer> */} </div>
+        </div>
 
 
-  );
+   
+
+
+    );
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    

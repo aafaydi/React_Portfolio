@@ -2,8 +2,9 @@
     display: flex;
     background: black;
     justify-content:  space-between;
-    color: brown;
+    color: blue;
     margin: px;
     padding: 20px;
     font-size: 30px;
+    list-style: none;
 }
