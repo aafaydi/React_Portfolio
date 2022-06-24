@@ -1,12 +1,15 @@
 import React from 'react';
+import './home.css'
 import coverImage from "../../assets/Images/Ahmad1.JPG";
 import Navbar from "../../componts/Navbar/Navbar";
 
 function Home() {
   return (
     <section className="my-10">
+      <nav className='header'>
       <h1 id="about">Ahmad Faydi</h1>
       <Navbar />
+      </nav>
 
      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
     </section>

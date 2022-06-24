@@ -1,0 +1,6 @@
+ .flex-row {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

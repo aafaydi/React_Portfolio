@@ -1,9 +1,12 @@
 import React from 'react'
+import './navbar.css'
 
 function Navbar(props) {
   const { currentOption, setCurrentOption } = props;
 
   return (
+    
+    
     <nav>
     <ul className="flex-row">
 
