@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 
 
+
 function App() {
     const [contactSelected, setContactSelected] = useState(false);
     const [currentTab, setCurrentTab] = useState("home");
@@ -37,7 +38,9 @@ function App() {
                 <nav className='header'>
                     <h1 id="about">Ahmad Faydi</h1>
                     <Navbar setCurrentOption={setCurrentTab} currentOption={currentTab}/>
-                </nav>
+		         </nav>
+
+				 
             
             <div>
                 <main>

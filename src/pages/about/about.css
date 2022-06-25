@@ -1,0 +1,22 @@
+
+.my-3 {
+    height: 500px;
+}
+   
+    
+  
+
+
+.tabledisplay {
+    display: flex;
+    background-image: url("../../assets/Images/charlotte2.JFIF");
+    padding: 50px;
+}
+
+#about-page {
+    
+    padding: 50px;
+    font-weight: 1000;
+    font-size:x-large;
+   
+   }

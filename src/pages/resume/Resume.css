@@ -1,0 +1,16 @@
+.container{
+color: rgb(220, 245, 230);
+font-size: larger;
+
+
+}
+
+.resume-display {
+    padding-left: 90px;
+
+}
+
+.resume {
+    background-color: darkgoldenrod;
+    height: 800px;
+}
