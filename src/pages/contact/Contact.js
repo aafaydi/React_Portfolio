@@ -4,24 +4,31 @@ import './contact.css'
 import { validateEmail } from "../../assets/utils/helpers";
 
 function Contact() {
-  const [formState, setFormState] = useState({name: "", email: "", message: "",});
+  const [errorMessage, setErrorMessage] = useState('');
+  const [formState, setFormState] = useState({name: '', email: '', message: ''});
 
   
-  const [errorMessage, setErrorMessage] = useState("");
+  
   const { name, email, message } = formState;
 
   function anyChange(change) {
+    setFormState({...formState, name: change.target.value })
+
 		if (change.target.name === "email") {
 			const isValid = validateEmail(change.target.value);
       console.log(isValid);
 
 			if (!isValid) {
 				setErrorMessage("Your email is Wrong.");
+      // } else {
+      //   setErrorMessage('');
+      // }
+
 			} else {
 				if (!change.target.value.length) {
 					setErrorMessage(`${change.target.name} is required.`);
 				} else {
-					setErrorMessage("");
+					setErrorMessage('');
 				}
 			}
 		}
@@ -30,6 +37,8 @@ function Contact() {
 			setFormState({ ...formState, [change.target.name]: change.target.value });
 		}
 	}
+
+  console.log(formState);
 
 
   function handleSubmit(e) {
@@ -46,15 +55,15 @@ function Contact() {
     <form id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="name" />
+        <input type="text" defaultValue={name} onChange={anyChange} name="name" />
       </div>
       <div>
         <label htmlFor="email">Email address:</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" onChange={anyChange} />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea name="message" rows="5" />
+        <textarea name="message"  defaultValue={message} onChange={anyChange} rows="5" />
       </div>
     
       {errorMessage && (
