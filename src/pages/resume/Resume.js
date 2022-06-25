@@ -1,5 +1,5 @@
 import React from 'react'
-
+import resumeImg from '../../assets/Images/tower.jfif'
 import './Resume.css'
 
 
@@ -15,11 +15,11 @@ function Resume() {
 
        <div className="resume-display">
         
-        
+       <img className="image-display-resume"src={resumeImg}/>
 
        <a href={require("../../assets/Images/Ahmad_Resume_3.rtf")} 
        
-    //    { backgroundImage: "url(../src/assets/Images/tower.jfif" }
+    
        
        
        

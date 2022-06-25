@@ -7,10 +7,15 @@ font-size: larger;
 
 .resume-display {
     padding-left: 90px;
-
+    
 }
 
 .resume {
     background-color: darkgoldenrod;
     height: 800px;
+}
+
+.image-display-resume {
+    width: 700px;
+    height: 600px;
 }
