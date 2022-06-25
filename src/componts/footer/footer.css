@@ -1,0 +1,25 @@
+.footer {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+#github {
+
+    width: 100px;
+    height: 100px;
+}
+
+#linkedin {
+
+    width: 100px;
+    height: 100px;
+}
+
+#face {
+
+    width: 100px;
+    height: 100px;
+}

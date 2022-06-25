@@ -10,6 +10,9 @@ function Navbar(props) {
     <nav>
     <ul className="flex-row">
 
+	            <li className={currentOption === "home" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentOption("home")}>Home</span>
+				</li>
     
 				<li className={currentOption === "about" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setCurrentOption("about")}>About Me</span>
@@ -32,6 +35,8 @@ function Navbar(props) {
 				<li className={currentOption === "resume" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setCurrentOption("resume")}>Resume</span>
 				</li>
+
+				
         
 
 			</ul>

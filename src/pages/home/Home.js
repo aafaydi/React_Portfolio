@@ -11,7 +11,7 @@ function Home() {
     <section className="my-10">
      
 
-     <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+     <img src={coverImage} className="my-2" style={{ width: "1300px" }} alt="cover" />
     </section>
 
   );

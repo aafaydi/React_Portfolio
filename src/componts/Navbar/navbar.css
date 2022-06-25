@@ -1,5 +1,12 @@
  .flex-row {
     display: flex;
+    padding: 15px;
+    
     list-style: none;
    
+}
+
+.about {
+
+    word-spacing: 15px;
 }

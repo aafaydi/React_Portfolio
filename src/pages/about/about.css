@@ -9,13 +9,14 @@
 
 .tabledisplay {
     display: flex;
-    background-image: url("../../assets/Images/charlotte2.JFIF");
+    background-image: url("../../assets/Images/blue.jpg");
     padding: 50px;
 }
 
 #about-page {
     
     padding: 50px;
+    color: aliceblue;
     font-weight: 1000;
     font-size:x-large;
    

@@ -2,9 +2,11 @@
     display: flex;
     background: black;
     justify-content:  space-between;
+    width: 1300px;
     color: blue;
     margin: px;
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 30px;
     list-style: none;
+  
 }

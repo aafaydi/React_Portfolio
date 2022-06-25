@@ -1,0 +1,256 @@
+.Portfolio {
+    background-color: coral;
+    text-align: center;
+    height: 2300px;
+}
+
+.work {
+    display: flex;
+     padding:5ch
+   
+}
+
+#one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    outline: 4px solid red;
+   
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+    background-color: cornsilk;
+}
+
+#two {
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: x-large;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+
+}
+
+#three {
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+
+}
+
+.work2 {
+    display: flex;
+     padding:5ch
+}
+
+#four{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+
+}
+
+#five{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#six{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+.work3 {
+    display: flex;
+     padding:5ch;
+}
+
+#seven{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#eight{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#nine{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.work4 {
+    display: flex;
+     padding:5ch;
+}
+
+#ten{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#eleven{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: large;
+}
+
+#tewlve{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.work5{
+    display: flex;
+     padding:5ch;
+}
+
+#thirth{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#fourth{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#fifth{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: large;
+}
+
+
+.work6 {
+    display: flex;
+     padding:5ch;
+}
+
+#sixt{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#seventee{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}
+
+#eightee{
+    display: flex;
+    outline: 4px solid red;
+    background-color: cornsilk;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    font-size: x-large;
+}

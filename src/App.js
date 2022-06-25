@@ -5,7 +5,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Resume from "./pages/resume/Resume";
 import Navbar from './componts/Navbar/Navbar';
-import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from './componts/footer/Footer';
 import "./App.css"
 
 
@@ -15,7 +15,8 @@ function App() {
     const [currentTab, setCurrentTab] = useState("home");
 
     // This function checks to see which tab is selected and then generates the appropriate tab.
-    const renderTab = () => {
+    
+	const renderTab = () => {
         switch (currentTab) {
             case "about":
                 return <About/>;
@@ -29,6 +30,7 @@ function App() {
                 return <Home/>;
         }
     };
+	
 
 
     return (
@@ -50,7 +52,7 @@ function App() {
                     {renderTab()}
                 </main>
             </div>
-            <div> {/* <Footer></Footer> */} </div>
+            <div> <Footer></Footer> </div>
         </div>
 
 
