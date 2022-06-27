@@ -22,7 +22,7 @@ SO THAT I can assess whether they're a good candidate for an open position.
 # Deployment:
 GitHub: https://github.com/aafaydi/React_Portfolio
 Heroku Live: https://yusef-app.herokuapp.com/
-
+Video https://youtu.be/MtmRYmxDdwk
 
 
 # Acceptance Criteria:
