@@ -21,7 +21,7 @@ SO THAT I can assess whether they're a good candidate for an open position.
 
 # Deployment:
 GitHub: https://github.com/aafaydi/React_Portfolio
-Heroku: https://brazil1982.herokuapp.com/
+Live: https://aafaydi.github.io/React_Portfolio/
 
 
 # Acceptance Criteria:
