@@ -102,6 +102,7 @@ import background1 from "../../assets/Images/protofio.png";
       <table className="work6">
       <div id="sixt">
       React Challenge: React Portfolio
+      <a href="https://github.com/aafaydi/React_Portfolio">Check it out</a>
       </div>
       <div id="seventee"></div>
       <div id="eightee"></div>

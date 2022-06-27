@@ -16,7 +16,7 @@
     justify-content: space-between;
     margin: 25px;
     outline: 4px solid red;
-   
+    background-image: url("../../assets/Images/protofio.png");
     width: 350px;
     height: 200px;
     font-size: x-large;
@@ -34,6 +34,7 @@
     margin: 25px;
     width: 350px;
     height: 200px;
+    background-image: url("../../assets/Images/javascript.png");
 
 }
 
@@ -47,6 +48,7 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/Api.png");
 
 }
 
@@ -65,12 +67,14 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/workday1.png");
 
 }
 
 #five{
     display: flex;
     outline: 4px solid red;
+    color: azure;
     background-color: cornsilk;
     flex-direction: column;
     justify-content: space-between;
@@ -78,18 +82,22 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/weather.png");
 }
 
 #six{
     display: flex;
     outline: 4px solid red;
     background-color: cornsilk;
+    color:crimson;
+    font-weight: 500px;
     flex-direction: column;
     justify-content: space-between;
     margin: 25px;
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/project1.jpg");
 }
 .work3 {
     display: flex;
@@ -106,6 +114,7 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/node.png");
 }
 
 #eight{
@@ -118,6 +127,7 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/team.png");
 }
 
 #nine{
@@ -130,6 +140,7 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/note.png");
 }
 
 .work4 {
@@ -141,24 +152,29 @@
     display: flex;
     outline: 4px solid red;
     background-color: cornsilk;
+    color:azure;
     flex-direction: column;
     justify-content: space-between;
     margin: 25px;
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/tracker.jpg");
 }
 
 #eleven{
     display: flex;
     outline: 4px solid red;
     background-color: cornsilk;
+    color: black;
     flex-direction: column;
     justify-content: space-between;
     margin: 25px;
     width: 350px;
     height: 200px;
     font-size: large;
+    font-weight: 900;
+    background-image: url("../../assets/Images/E.jpg");
 }
 
 #tewlve{
@@ -171,6 +187,8 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    font-weight: 700;
+    background-image: url("../../assets/Images/mvc.png");
 }
 
 .work5{
@@ -188,6 +206,7 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    
 }
 
 #fourth{
@@ -200,6 +219,8 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    font-weight: 700;
+    background-image: url("../../assets/Images/nosql.jpg");
 }
 
 #fifth{
@@ -212,6 +233,8 @@
     width: 350px;
     height: 200px;
     font-size: large;
+    font-weight: 700;
+    background-image: url("../../assets/Images/pwa.jpg");
 }
 
 
@@ -230,6 +253,8 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    font-weight: 700;
+    background-image: url("../../assets/Images/react.jpg");
 }
 
 #seventee{
@@ -254,4 +279,8 @@
     width: 350px;
     height: 200px;
     font-size: x-large;
+    background-image: url("../../assets/Images/micheal.JPG");
+    background-size: 300px 200px;
+
+
 }
