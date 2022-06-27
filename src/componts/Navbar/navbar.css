@@ -1,12 +1,12 @@
  .flex-row {
     display: flex;
     padding: 15px;
+    word-spacing: 5px;
     
     list-style: none;
    
 }
 
-.about {
-
-    word-spacing: 15px;
-}
+/* .mx-2 {
+    margin-right: 20px;
+} */

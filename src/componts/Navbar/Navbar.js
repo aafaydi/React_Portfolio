@@ -9,7 +9,7 @@ function Navbar(props) {
     
     <nav>
     <ul className="flex-row">
-
+                
 	            <li className={currentOption === "home" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setCurrentOption("home")}>Home</span>
 				</li>

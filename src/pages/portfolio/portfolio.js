@@ -1,5 +1,7 @@
 import React from 'react'
 import './portfolio.css'
+import background1 from "../../assets/Images/protofio.png";
+
 
  function Portfolio() {
   return (
@@ -11,6 +13,8 @@ import './portfolio.css'
 
       <div id="one">
          Advanced CSS Challenge: Professional Portfolio
+       
+
          <a href="https://aafaydi.github.io/Ahmad_porto_module2/">Check it out</a>
       </div>
       
@@ -18,6 +22,7 @@ import './portfolio.css'
       JavaScript Challenge: Password Generator
       <a href="https://aafaydi.github.io/password/">Check it out</a>
       </div>
+
       <div id="three">
       Web APIs Challenge: Code Quiz
       <a href="https://aafaydi.github.io/quizz_taker/">Check it out</a>

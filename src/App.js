@@ -39,7 +39,9 @@ function App() {
             
                 <nav className='header'>
                     <h1 id="about">Ahmad Faydi</h1>
+					
                     <Navbar setCurrentOption={setCurrentTab} currentOption={currentTab}/>
+					
 		         </nav>
 
 				 
@@ -47,9 +49,7 @@ function App() {
             <div>
                 <main>
                 
-				
-
-                    {renderTab()}
+				{renderTab()}
                 </main>
             </div>
             <div> <Footer></Footer> </div>

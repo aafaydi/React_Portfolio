@@ -1,8 +1,9 @@
 .header {
     display: flex;
-    background: black;
+    background: bisque;
     justify-content:  space-between;
-    width: 1300px;
+   
+    width: px;
     color: blue;
     margin: px;
     /* padding: 20px; */
@@ -10,3 +11,5 @@
     list-style: none;
   
 }
+
+
