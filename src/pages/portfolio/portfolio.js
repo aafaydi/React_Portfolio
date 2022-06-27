@@ -85,6 +85,7 @@ import background1 from "../../assets/Images/protofio.png";
       <table className="work5">
       <div id="thirth">
       Interactive Full-Stack Project
+      <a href="https://github.com/aafaydi/greater-purpose">Check it out</a>
       </div>
 
       <div id="fourth">
